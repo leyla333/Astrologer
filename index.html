@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="icon" href="https://stellarium.bold-themes.com/dark/wp-content/uploads/sites/3/2018/05/cropped-favicon-1-32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="./birinci.css">
+    <link rel="stylesheet" href="./ikinci.css">
+    <link rel="stylesheet" href="./ucuncu.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+
+</head>
+<body>
+  <header>
+    
+        <ul>
+            <li> <a href="#home" >Home</a> </li>
+            <li> <a href="#about" >About</a></li>
+            
+           
+            <li> <a href="#blog" >Blog</a></li>
+            <li> <a href="#contact" >Contacts</a></li>
+        </ul>
+    
+  </header>
+    <div class="contents">
+       <div class="cover">
+                <span>The</span>
+                <h1>Astrolog</h1>
+                <h2>By Leila Memmedzade</h2>
+          </div>
+
+            <div class="video-container">
+              <video class="video" muted autoplay loop>
+                <source src="./assets/img/Time Lapse Video Of Milky Way Galaxy.mp4" type="video/mp4" />
+             </video>
+             <div class="video-mask">
+
+              </div>
+          </div>
+    </div>
+    <section class="home" id="home">
+      <div id='main'>
+        <div class="heading text-center " data-aos="zoom-out"  data-aos-duration="2000">
+          <h2>Know Yourself Through Your Sign</h2>
+        </div>
+        <div class="container">
+          <!--row 1-->
+          <div class="row py-1">
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="1000">
+               <a href="#modal" rel="modal:open" onclick='cardclick("aries")'>
+                <img src="./assets/img/aries _1.jpg - Ярлык.lnk" alt="aries sign" >
+              </a>
+              <h3  class='text-center' >Aries</h3>
+            </div>
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="2000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("taurus")'>
+                <img src="./assets/img/taurus _1.jpg - Ярлык.lnk" alt="taurus sign">
+              </a>
+              <h3  class='text-center'>Taurus</h3>
+            </div>
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="3000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("gemini")'>
+                <img src="./assets/img/gemini _1.jpg - Ярлык.lnk" alt="gemini sign">
+              </a>
+              <h3  class='text-center' >Gemini</h3>
+            </div>
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="3000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("cancer")'>
+                <img src="./assets/img/cancer _1.jpg - Ярлык.lnk" alt="cancer sign">
+              </a>
+              <h3  class='text-center'>Cancer</h3>
+            </div>
+  
+          </div>
+  
+          <!--row 2-->
+          <div class="row py-1">
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="3000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("leo")'>
+                <img src="./assets/img/leo _1.jpg - Ярлык.lnk" alt="leo sign">
+              </a>
+              <h3  class='text-center' >Leo</h3>
+            </div>
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="3000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("virgo")'>
+                <img src="./assets/img/virgo _1.jpg - Ярлык.lnk" alt="virgo sign">
+              </a>
+              <h3  class='text-center' >Virgo</h3>
+            </div>
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="2000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("libra")'>
+                <img src="./assets/img/libra _1.jpg - Ярлык.lnk" alt="libra sign">
+              </a>
+              <h3  class='text-center' >Libra</h3>
+            </div>
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="1000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("scorpio")'>
+                <img src="./assets/img/scorpio _1.jpg - Ярлык.lnk" alt="scorpio sign">
+              </a>
+              <h3  class='text-center' >Scorpio</h3>
+            </div>
+  
+          </div>
+          <!--row 3-->
+          <div class="row py-1">
+
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="1000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("sagittarius")'>
+                <img src="./assets/img/sagittarius _1.jpg - Ярлык.lnk" alt="sagittarius sign">
+              </a>
+              <h3  class='text-center' >Sagittarius</h3>
+            </div>
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="2000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("capricorn")'>
+                <img src="./assets/img/capricorn _1.jpg - Ярлык.lnk" alt="capricorn sign">
+              </a>
+              <h3  class='text-center' >Capricorn</h3>
+            </div>
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="3000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("aquarius")'>
+                <img src="./assets/img/aquarius _1.jpg - Ярлык.lnk" alt="aquarius sign">
+              </a>
+              <h3  class='text-center' >Aquarius</h3>
+            </div>
+  
+            <div class="col text-center" data-aos='zoom-in' data-aos-duration="3000">
+              <a href="#modal" rel="modal:open" onclick='cardclick("pisces")'>
+                <img src="./assets/img/pisces _1.jpg - Ярлык.lnk" alt="pisces sign">
+              </a>
+              <h3  class='text-center' >Pisces</h3>
+            </div>
+  
+          </div>
+        </div>
+      </div> 
+      <div id="modal" class="modal">
+        <div class="container">
+          <div class="row justify-content-center">
+              <img src="" width='150' class="img-fulid" id='zodaicimg'>
+          </div>
+          <hr style="border:1px solid black; background-color:black;">
+          <div class="row">
+            <ul>
+              <li>Date : <span id='current_date' ></span></li>
+              <li>Lucky Time : <span id='lucky_time'></span></li>
+              <li>Lucky Number : <span id='lucky_number'></span></li>
+              <li>Color : <span id='color'></span></li>
+              <li>Mood : <span id='mood'></span></li>
+              <li>Description : <span id='description'></span></li>
+            </ul>
+         </div>
+          <hr style="border:1px solid black; background-color:black;" width="50%">
+       </div>
+      
+          
+      </div>
+      <div class="homes">
+        
+        <div class="homes right">
+          <div class="sekil">
+            <img src="https://stellarium.bold-themes.com/dark/wp-content/uploads/sites/3/2018/02/inner_sign_01.png" alt="">
+          </div>
+          <div class="metn">
+            <h2 class="small">BOOK A READING</h2>
+            <h2 class="big">Discover Your Life Path</h2>
+            <p>There are six bodies swimming with the Fishes. With Mercury, the ruler of this lunation amongst them, it could feel like everything we touch just flows through our fingers. It’s hard to organise.</p>
+          </div>
+          
+           
+        </div>
+        
+        <div class="homes left">
+         
+          <div class="metn">
+            <h2 class="small">BOOK A NATAL CHART READING</h2>
+            <h2 class="big">Discover Your Potential</h2>
+            <p> Pisces our guard is down. We’re soft and malleable, changeable, utterly ruled by a swell of emotion. And Virgo doesn’t know what to do with it. Instinctively she wants to put it all in order.</p>
+          </div>
+           <div class="sekil">
+            <img src="https://stellarium.bold-themes.com/dark/wp-content/uploads/sites/3/2018/02/inner_sign_02.png" alt="">
+          </div>
+        </div>
+      </div>
+          
+         
+    </section>
+      
+   <section class="about" id="about">
+     <div class="abouts">
+        <div class="abouts sag">
+          <div class="sekil">
+              <img src="https://stellarium.bold-themes.com/dark/wp-content/uploads/sites/3/2018/04/our-team-01.jpg" alt="">
+           </div>
+        </div>
+        <div class="abouts sol">
+          <div class="yazi">
+               <div class="logo">
+                  <h2 class="logos">Mischelle Williamson</h2>
+                  <p><i class="fa-regular fa-circle-dot"></i>Leo</p>
+                 <p> <i class="fa-solid fa-up-long"></i>Virgo</p>
+                  <p><i class="fa-solid fa-moon"></i>Aries</p>
+
+               </div> 
+               <div class="emails">
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="insta">
+                 <a href="https://twitter.com/i/topics/1102600979491381248"><p><i class="fa-brands fa-twitter"></i>TWITTER</p></a> 
+                  <a href="https://www.facebook.com/Astrologycom/"><p><i class="fa-brands fa-facebook"></i>FACEBOOK</p></a>
+                </div>
+               </div>
+
+               <div class="exams">
+                <p class="exam">
+                  In 1980, Mischelle obtained an original copy of Lilly’s Christian Astrology, and later she arranged to have it re-printed as a facsimile edition in 1985. This dissemination of Christian Astrology helped to spur a revival of interest in traditional astrology in the 21th century, and later she arranged to have it re-printed as. Her work stimulated the unearthing of techniques that had been lost in various cultural transitions of the Babylonians, Greeks and Egyptians.
+                </p>
+               </div>
+           </div>
+        </div>
+           
+      </div>
+      <div class="abouts1">
+        <div class="abouts sag">
+            <div class="yazi">
+               <div class="logo">
+                  <h2 class="logos">Roberto Salermo</h2>
+                  
+                  <p><i class="fa-solid fa-up-long"></i>Virgo</p>
+                  <p><i class="fa-regular fa-circle-dot"></i>Leo</p>
+                  
+                  <p><i class="fa-solid fa-moon"></i>Aries</p>
+
+               </div> 
+               <div class="emails">
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="insta">
+                 
+                  <a href="https://twitter.com/i/topics/1102600979491381248"><p><i class="fa-brands fa-twitter"></i>TWITTER</p></a> 
+                  <a href="https://www.facebook.com/Astrologycom/"><p><i class="fa-brands fa-facebook"></i>FACEBOOK</p></a>
+                </div>
+               </div>
+               <div class="exams">
+                <p class="exam">
+                  Born in 4 March 1983, Roberto is a British astrologer and historian of astrology and cultural astronomy. He is the author of a number of books and currently pursues an academic career. In 2005, he became Principal Lecturer in History at Bath Spa University. Roberto is Lecturer in the School of Archaeology, History and Anthropology, director of the Sophia Centre for the Study of Cosmology in Culture, and course director.
+                </p>
+               </div>
+           </div>
+          
+        </div>
+        <div class="abouts sol">
+           <div class="sekil">
+              <img src="https://stellarium.bold-themes.com/dark/wp-content/uploads/sites/3/2018/04/our-team-02.jpg" alt="">
+           </div>
+        </div>
+           
+      </div>
+      <div class="abouts3">
+        <div class="abouts sag">
+          <div class="sekil">
+              <img src="https://stellarium.bold-themes.com/dark/wp-content/uploads/sites/3/2018/04/our-team-03.jpg" alt="">
+           </div>
+        </div>
+        <div class="abouts sol">
+          <div class="yazi">
+               <div class="logo">
+                  <h2 class="logos">Natasha Roberts</h2> 
+                  <p><i class="fa-solid fa-moon"></i>Aries</p>
+                  <p><i class="fa-regular fa-circle-dot"></i>Leo</p>
+                  <p><i class="fa-solid fa-up-long"></i>Virgo</p>
+                 
+
+               </div> 
+               <div class="emails">
+                
+                <div class="insta">
+                 
+                  <a href="https://twitter.com/i/topics/1102600979491381248"><p><i class="fa-brands fa-twitter"></i>TWITTER</p></a> 
+                  <a href="https://www.facebook.com/Astrologycom/"><p><i class="fa-brands fa-facebook"></i>FACEBOOK</p></a>
+                </div>
+               </div>
+               <div class="exams">
+                <p class="exam">
+                  In 1980, Mischelle obtained an original copy of Lilly’s Christian Astrology, and later she arranged to have it re-printed as a facsimile edition in 1985. This dissemination of Christian Astrology helped to spur a revival of interest in traditional astrology in the 21th century, and later she arranged to have it re-printed as. Her work stimulated the unearthing of techniques that had been lost in various cultural transitions of the Babylonians, Greeks and Egyptians.
+                </p>
+               </div>
+           </div>
+        </div>
+           
+      </div>
+    
+    </section>
+   <section class="blog" id="blog">
+      <div class="blogs">
+        <div class="rights">
+        <div class="wrapper">
+          <img src="" alt="" id="image-animate">
+        </div>
+      </div>
+      
+      <div class="left">
+        <h2 class="post">RECENT POSTS</h2>
+        <div class="cervive">
+          <div class="mels">
+            <div class="fotocu">
+              <img src="https://stellarium.bold-themes.com/dark/wp-content/uploads/sites/3/2017/11/post_03-160x160.jpg" alt="">
+              
+            </div>
+            
+            <div class="derman">
+              <a href="file:///C:/Users/Admin/Desktop/hazirladigim%20projectler/birinci/index.html">Zodiac Sign:Jupiter in Scropio 2023</a>
+            </div>
+          </div>
+          <hr>
+          <div class="mels">
+            <div class="fotocu">
+              <img src="https://stellarium.bold-themes.com/dark/wp-content/uploads/sites/3/2017/11/post_04-160x160.jpg" alt="">
+              
+            </div>
+            
+            <div class="derman">
+              <a href="file:///C:/Users/Admin/Desktop/hazirladigim%20projectler/ikinci/index.html">Complete Guide For Reading Horoscope</a>
+            </div>
+          </div>
+          <hr>
+          <div class="mels">
+            <div class="fotocu">
+              <img src="https://stellarium.bold-themes.com/dark/wp-content/uploads/sites/3/2018/05/post_07-160x160.jpg" alt="">
+              
+            </div>
+            
+            <div class="derman">
+              <a href="file:///C:/Users/Admin/Desktop/ucuncu/index.html"> Where You'll Find Love in Europe......</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+      
+      <div class="iyirmi">
+        <h2 class="jupiter">Zodiac Sign:Jupiter in Scorpio 2023</h2>
+      
+        <p class="fly">Sacrifice fly dead ball era grass base on balls cracker jack right field reds around the horn disabled list. Outfield hack butcher boy scorecard batting average, diamond flyout. Rainout full count cycle passed ball away baltimore chop rainout run. Extra innings triple-A take shift series run batted.</p>
+        <p class="yanvar">NOVEMBER 12,2022 /MARS * TAROT/ BY STELLA MARS</p>
+      </div>
+      <div class="cevir">
+          <img src="" alt="" id="sekil-animates">
+      </div>
+      <div class="iyirmis">
+        <h2 class="jupiter">Complete Guide For Reading Horoscope</h2>
+      
+        <p class="fly">Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric “outside the box” thinking. Completely pursue scalable customer service through sustainable potentialities. Collaboratively administrate turnkey channels whereas virtual e-tailers.</p>
+        <p class="yanvar">NOVEMBER 11, 2022/ MOON * STARS/ BY STELLA MARS</p>
+      </div>
+   </section>
+   <section class="contact" id="contact">
+    
+      <div class="contacts">
+         <div class="contacts-right">
+           <h2 class="elaqeler">CONTACT</h2>
+           <h2  class="get">Get In Touch</h2>
+           <p>Vestibulum non neque in mi dictum suscipit. Fusce quis facilisis metus. Vestibulum at leo purus. Etiam at vestibulum libero. Cras augue neque, finibus sit amet pellentesque, fermentum vel enim. Aenean at lectus sed neque tempor volutpat quis id neque. Sed enim purus, ultrices vitae ultricies id, eleifend at eros. Sed non lorem a elit tempus semper. Cras porttitor consequat nunc sed egestas ante ipsum primis in faucibus orci.</p>
+        </div>
+        <div class="contacts-left">
+          <div class="formbold-main-wrapper">
+            <!-- Author: FormBold Team -->
+            <!-- Learn More: https://formbold.com -->
+            <div class="formbold-form-wrapper">
+              <form action="#">
+                <div class="formbold-mb-5">
+                  <label for="name" class="formbold-form-label"> Full Name </label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Full Name"
+                    class="formbold-form-input"
+                  />
+                </div>
+          
+                <div class="formbold-mb-5">
+                  <label for="email" class="formbold-form-label"> Email Address </label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    class="formbold-form-input"
+                  />
+                </div>
+          
+                <div class="formbold-mb-5">
+                  <label for="subject" class="formbold-form-label"> Subject </label>
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Enter your subject"
+                    class="formbold-form-input"
+                  />
+                </div>
+          
+                <div class="formbold-mb-5">
+                  <label for="message" class="formbold-form-label"> Message </label>
+                  <textarea
+                    rows="6"
+                    name="message"
+                    id="message"
+                    placeholder="Type your message"
+                    class="formbold-form-input"
+                  ></textarea>
+                </div>
+          
+                <div>
+                  <button class="formbold-btn">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div class="location">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95919.39566507422!2d-72.99913631692024!3d41.298396144417985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7d8443a8070e5%3A0xf6a354c659b264ed!2zTnl1IEhldm4sIEtvbm5la3Rpa3V0LCBBbWVyaWthIEJpcmzJmcWfbWnFnyDFnnRhdGxhcsSx!5e0!3m2!1saz!2s!4v1676010124183!5m2!1saz!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="visits">
+          <h3>LOCATION</h3>
+          <h2>Visit Me</h2>
+          <p>Vestibulum at leo purus. Etiam at vestibulum libero. Cras augue neque, finibus sit amet pellentesque in, fermentum vel enim. Phasellus volutpat vulputate arcu, gravida lobortis auctor vitae. Suspendisse felis lacus, fermentum in mauris at, accumsan gravida eros. Fusce id ligula efficitur, feugiat vel, blandit enim. Vestibulum ante ipsum.
+
+          </p>
+        </div>
+      </div>
+     
+    </section>
+      
+       
+   
+     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>  
+  
+    <!--jquery modal link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/javascript/index.js"></script>
+</body>
+</html>
